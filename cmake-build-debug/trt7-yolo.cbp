@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trt7-yolo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv-3.4.0\;CMake Files\..\..\opencv-3.4.0\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detector">
+				<Option output="/home/songtf/project/trt7-yolo/cmake-build-debug/libdetector.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/songtf/project/trt7-yolo/plugin/include"/>
+					<Add directory="/home/songtf/project/trt7-yolo/convert/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/build"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include/opencv"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudev/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/core/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaarithm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/flann/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/hdf/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ml/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/objdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/phase_unwrapping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/plot/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/reg/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/surface_matching/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/video/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xphoto/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudabgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafilters/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaimgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudawarping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/dnn/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/freetype/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/fuzzy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/img_hash/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgcodecs/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/photo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/shape/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videoio/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/highgui/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ts/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bioinspired/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/dpm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/features2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/line_descriptor/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/saliency/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/text/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/calib3d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ccalib/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudalegacy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaoptflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudastereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/datasets/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/rgbd/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/stereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/structured_light/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/superres/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/tracking/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videostab/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xfeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ximgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/aruco/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/face/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/optflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/sfm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/stitching/include"/>
+					<Add directory="/home/songtf/package/TensorRT-7.1.3.4.Ubuntu-18.04.x86_64-gnu.cuda-10.2.cudnn8.0/TensorRT-7.1.3.4/include"/>
+					<Add directory="/home/songtf/project/trt7-yolo/extra"/>
+					<Add directory="/home/songtf/project/trt7-yolo/modules"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 detector"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detector/fast">
+				<Option output="/home/songtf/project/trt7-yolo/cmake-build-debug/libdetector.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/songtf/project/trt7-yolo/plugin/include"/>
+					<Add directory="/home/songtf/project/trt7-yolo/convert/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/build"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include/opencv"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudev/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/core/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaarithm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/flann/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/hdf/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ml/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/objdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/phase_unwrapping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/plot/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/reg/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/surface_matching/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/video/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xphoto/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudabgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafilters/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaimgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudawarping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/dnn/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/freetype/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/fuzzy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/img_hash/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgcodecs/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/photo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/shape/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videoio/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/highgui/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ts/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bioinspired/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/dpm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/features2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/line_descriptor/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/saliency/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/text/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/calib3d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ccalib/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudalegacy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaoptflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudastereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/datasets/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/rgbd/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/stereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/structured_light/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/superres/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/tracking/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videostab/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xfeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ximgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/aruco/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/face/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/optflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/sfm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/stitching/include"/>
+					<Add directory="/home/songtf/package/TensorRT-7.1.3.4.Ubuntu-18.04.x86_64-gnu.cuda-10.2.cudnn8.0/TensorRT-7.1.3.4/include"/>
+					<Add directory="/home/songtf/project/trt7-yolo/extra"/>
+					<Add directory="/home/songtf/project/trt7-yolo/modules"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 detector/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trt7-yolo">
+				<Option output="/home/songtf/project/trt7-yolo/cmake-build-debug/trt7-yolo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/songtf/project/trt7-yolo/plugin/include"/>
+					<Add directory="/home/songtf/project/trt7-yolo/convert/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/songtf/package/TensorRT-7.1.3.4.Ubuntu-18.04.x86_64-gnu.cuda-10.2.cudnn8.0/TensorRT-7.1.3.4/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/build"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include/opencv"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudev/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/core/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaarithm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/flann/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/hdf/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ml/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/objdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/phase_unwrapping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/plot/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/reg/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/surface_matching/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/video/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xphoto/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudabgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafilters/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaimgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudawarping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/dnn/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/freetype/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/fuzzy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/img_hash/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgcodecs/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/photo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/shape/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videoio/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/highgui/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ts/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bioinspired/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/dpm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/features2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/line_descriptor/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/saliency/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/text/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/calib3d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ccalib/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudalegacy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaoptflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudastereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/datasets/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/rgbd/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/stereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/structured_light/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/superres/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/tracking/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videostab/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xfeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ximgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/aruco/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/face/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/optflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/sfm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 trt7-yolo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trt7-yolo/fast">
+				<Option output="/home/songtf/project/trt7-yolo/cmake-build-debug/trt7-yolo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/songtf/project/trt7-yolo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/songtf/project/trt7-yolo/plugin/include"/>
+					<Add directory="/home/songtf/project/trt7-yolo/convert/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/songtf/package/TensorRT-7.1.3.4.Ubuntu-18.04.x86_64-gnu.cuda-10.2.cudnn8.0/TensorRT-7.1.3.4/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/build"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/include/opencv"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudev/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/core/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaarithm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/flann/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/hdf/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ml/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/objdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/phase_unwrapping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/plot/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/reg/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/surface_matching/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/video/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xphoto/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudabgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafilters/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaimgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudawarping/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/dnn/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/freetype/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/fuzzy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/img_hash/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/imgcodecs/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/photo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/shape/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videoio/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/highgui/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/ts/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bioinspired/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/dpm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/features2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/line_descriptor/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/saliency/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/text/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/calib3d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ccalib/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudafeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudalegacy/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaobjdetect/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudaoptflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/cudastereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/datasets/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/rgbd/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/stereo/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/structured_light/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/superres/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/tracking/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/videostab/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/xfeatures2d/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/ximgproc/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/aruco/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/bgsegm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/face/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/optflow/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/opencv_contrib-3.4.0/modules/sfm/include"/>
+					<Add directory="/home/songtf/opencv-3.4.0/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 trt7-yolo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/songtf/project/trt7-yolo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/songtf/project/trt7-yolo/cmake-build-debug/CMakeFiles/detector.dir/plugin/src/detector_generated_yolov3layer.cu.o">
+			<Option target="detector"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/convert/include/yolo.h">
+			<Option target="detector"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/convert/src/yolo.cpp">
+			<Option target="detector"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/main.cpp">
+			<Option target="trt7-yolo"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/plugin/include/yolov3layer.h">
+			<Option target="detector"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/plugin/src/yolov3layer.cpp">
+			<Option target="detector"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/plugin/src/yolov3layer.cu">
+			<Option target="detector"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/../../opencv-3.4.0/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.0\build\"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/../../opencv-3.4.0/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.0\build\"/>
+		</Unit>
+		<Unit filename="/home/songtf/project/trt7-yolo/../../opencv-3.4.0/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.0\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
